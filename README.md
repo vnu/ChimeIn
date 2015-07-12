@@ -1,6 +1,4 @@
 # CHIME IN
-====================
-
 Chimein is a safe&resourceful platform for u to share ur story 1:1 with a credible expert or broadcast to a caring community
 
 About
