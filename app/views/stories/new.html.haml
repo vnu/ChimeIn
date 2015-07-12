@@ -1,0 +1,14 @@
+.chimeform
+  = form_for(Story.new, :html => { :role => 'form'}) do |f|
+    %h3 Share your Story
+    .form-group
+      = f.label 'What would you like to share about?'
+      = f.text_field :title, placeholder: 'Domestic Violence, Bullying etc.,', :autofocus => true, class: 'form-control'
+    .form-group
+      = f.label 'Tell us your story'
+      = f.text_area(:content, size: "30x10")
+    = f.submit 'Share', :class => 'button right'
+    -#.checkbox{:style => "width:150px"}
+    -#  %label
+    -#    = f.check_box :anonymous
+    -#    Remember me

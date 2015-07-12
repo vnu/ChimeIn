@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 ruby '2.2.2'
 # Gemfile
 gem 'rabl'
+gem 'underscore-rails'
+
 # Also add either `oj` or `yajl-ruby` as the JSON parser
 gem 'oj'
 gem 'rails', '4.2.3'

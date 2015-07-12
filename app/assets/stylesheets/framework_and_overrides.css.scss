@@ -90,3 +90,40 @@ section {
   @extend .radius;
   @extend .tiny;
 }
+
+.chimeform {
+  padding-top: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.chimeform form {
+  @include panel();
+  padding-bottom: 60px;
+}
+.chimeform form a {
+  font-size: rem-calc(13);
+}
+.chimeform form p {
+  font-size: rem-calc(13);
+}
+.chimeform .form-group {
+  // for Bootstrap, not used for Foundation
+}
+.chimeform .form-control {
+  // for Bootstrap, not used for Foundation
+}
+.chimeform .checkbox {
+  // for Bootstrap, not used for Foundation
+}
+.chimeform fieldset {
+  @include panel();
+}
+.chimeform #error_explanation:not(:empty) {
+  @extend .alert-box;
+  @extend .alert;
+}
+.chimeform #error_explanation h2 {
+  font-size: rem-calc(16);
+  color: white;
+}
+

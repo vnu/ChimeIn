@@ -1,0 +1,26 @@
+.chimeform
+  = form_for(Organization.new, :html => { :role => 'form'}) do |f|
+    %h3 Register your organization
+    .form-group
+      = f.label :name
+      = f.text_field :name, :autofocus => true, class: 'form-control'
+    .form-group
+      = f.label :website
+      = f.text_field :website, :autofocus => true, class: 'form-control'
+    .form-group
+      = f.label :email
+      = f.text_field :email, :autofocus => true, class: 'form-control'
+    .form-group
+      = f.label :phone
+      = f.text_field :email, :autofocus => true, class: 'form-control'
+    .form-group
+      = f.label :location
+      = f.text_field :email, :autofocus => true, class: 'form-control'
+    .form-group
+      = f.label :about
+      = f.text_area(:description, size: "30x10")
+    = f.submit 'Share', :class => 'button right'
+    -#.checkbox{:style => "width:150px"}
+    -#  %label
+    -#    = f.check_box :anonymous
+    -#    Remember me
