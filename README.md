@@ -2,7 +2,12 @@ Chime In
 ================
 
 About
-++++++++++++++++
+===================
+
+https://dl.dropboxusercontent.com/u/32194349/chimein.pdf
+
+Screen Shots
+======================
 
 ![logo_360](https://cloud.githubusercontent.com/assets/1395635/8639974/b8c3fcb2-289c-11e5-889f-c37535e43846.png)
 
