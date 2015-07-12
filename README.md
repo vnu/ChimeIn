@@ -1,51 +1,18 @@
 Chime In
 ================
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+About
+++++++++++++++++
 
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
-provided by the [RailsApps Project](http://railsapps.github.io/).
+![logo_360](https://cloud.githubusercontent.com/assets/1395635/8639974/b8c3fcb2-289c-11e5-889f-c37535e43846.png)
 
-Rails Composer is open source and supported by subscribers. Please join RailsApps to support development of Rails Composer.
+![screen_shot_2015-07-12_at_1 02 31_pm_720](https://cloud.githubusercontent.com/assets/1395635/8639874/e60ffaba-289a-11e5-8417-1aab2d801b7a.png)
 
-Problems? Issues?
------------
+![image](https://cloud.githubusercontent.com/assets/1395635/8639894/3f29007e-289b-11e5-85a8-e7383656f696.png)
 
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
+![screen_shot_2015-07-12_at_1 17 07_pm_720](https://cloud.githubusercontent.com/assets/1395635/8639875/e6255284-289a-11e5-9207-00a3b61fdf7d.png)
 
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
+![image](https://cloud.githubusercontent.com/assets/1395635/8639980/f017f588-289c-11e5-9ac1-ac1469d4610e.png)
 
-If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
-
-Ruby on Rails
--------------
-
-This application requires:
-
-- Ruby 2.2.2
-- Rails 4.2.3
-
-Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
-
-Getting Started
----------------
-
-Documentation and Support
--------------------------
-
-Issues
--------------
-
-Similar Projects
-----------------
-
-Contributing
-------------
-
-Credits
--------
-
-License
--------
+![img_3241](https://cloud.githubusercontent.com/assets/1395635/8639873/e29f598e-289a-11e5-825d-c9f2b882d7c7.PNG)
 
