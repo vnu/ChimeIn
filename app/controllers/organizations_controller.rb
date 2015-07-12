@@ -13,7 +13,13 @@ class OrganizationsController < ApplicationController
   private
 
   def organization_params
-    params.require(:organization).permit(:name, :website, :location, :email, :description, :phone)
+    params.require(:organization).permit(:name,
+                                         :website,
+                                         :location,
+                                         :email,
+                                         :description,
+                                         :phone,
+                                         :latitude, :longitude, :image_url)
   end
 
 end
