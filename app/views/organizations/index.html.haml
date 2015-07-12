@@ -1,7 +1,17 @@
-%h1 Organization
-%p= @organizations.inspect
-
-#map-canvas
+.row
+  #map-canvas
+%br
+.row
+  %table(width='100%')
+    %tr
+      %th
+        Name
+      %th
+        Contact
+    -@organizations.each do |x|
+      %tr
+        %td= x.name
+        %td= x.phone
 
 %script{src: "https://maps.googleapis.com/maps/api/js"}
 :javascript
