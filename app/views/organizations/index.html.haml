@@ -5,19 +5,24 @@
   %table(width='100%')
     %tr
       %th
-        Name
-      %th
-        Contact
-      %th
-        Description
-      %th
+        Organization
     -@organizations.each do |x|
       %tr
-        %td= x.name
-        %td= x.phone
-        %td= x.description
         %td
-          %img{src: x.image_url, alt: 'Not Found'}
+          %img.right{src: x.image_url, alt: 'Not Found'}
+          %strong
+            =link_to(x.name, x.website)
+          %br
+          %strong Contact:
+          =x.phone
+          %br
+          %strong Website:
+          =link_to(x.website)
+          %br
+          %strong About:
+          =x.description
+          %br
+
 
 
 %script{src: "https://maps.googleapis.com/maps/api/js"}
