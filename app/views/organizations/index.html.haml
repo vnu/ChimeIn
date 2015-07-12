@@ -8,10 +8,17 @@
         Name
       %th
         Contact
+      %th
+        Description
+      %th
     -@organizations.each do |x|
       %tr
         %td= x.name
         %td= x.phone
+        %td= x.description
+        %td
+          %img{src: x.image_url, alt: 'Not Found'}
+
 
 %script{src: "https://maps.googleapis.com/maps/api/js"}
 :javascript

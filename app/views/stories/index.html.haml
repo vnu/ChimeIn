@@ -1,2 +1,16 @@
-%h1 Feed
-%p= @stories.inspect
+%br
+%br
+.row
+  %table(width='100%')
+    %tr
+      %th
+        About
+      %th
+        LookingFor
+      %th
+        My Story
+    -@stories.each do |story|
+      %tr
+        %td= story.title
+        %td= story.looking_for
+        %td= story.content
