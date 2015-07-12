@@ -3,5 +3,9 @@ Rails.application.routes.draw do
   devise_for :users
   resources :users
   resources :stories
-  resources :organizations
+  resources :organizations do
+    get :connect, on: :collection
+    post :connect_now, on: :collection
+  end
+
 end
