@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150712155806) do
+ActiveRecord::Schema.define(version: 20150712165145) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -38,6 +38,8 @@ ActiveRecord::Schema.define(version: 20150712155806) do
     t.string   "description", limit: 1000
     t.string   "phone"
     t.string   "image_url"
+    t.string   "latitude"
+    t.string   "longitude"
   end
 
   create_table "stories", force: :cascade do |t|
@@ -46,8 +48,10 @@ ActiveRecord::Schema.define(version: 20150712155806) do
     t.integer  "user_id"
     t.integer  "organization_id"
     t.boolean  "disable",                      default: false
-    t.datetime "created_at",                                   null: false
-    t.datetime "updated_at",                                   null: false
+    t.datetime "created_at",                                      null: false
+    t.datetime "updated_at",                                      null: false
+    t.boolean  "anonymous",                    default: false
+    t.string   "looking_for",                  default: "advice"
   end
 
   create_table "story_links", force: :cascade do |t|
