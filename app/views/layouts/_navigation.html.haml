@@ -1,12 +1,15 @@
 -# navigation styled for Zurb Foundation 5
 -# the syntax for data-topbar may need to change for Zurb Foundation 5
-%nav.top-bar{"data-topbar" => true}
-  %ul.title-area
-    %li.name
-      = link_to 'ChimeIn', root_path
-    %li.toggle-topbar.menu-icon
-      %a{:href => "#"}
-        Menu
-  .top-bar-section
-    %ul
-      = render 'layouts/navigation_links'
+-if user_signed_in?
+  %nav.top-bar{"data-topbar" => true}
+    %ul.title-area
+      %li.name
+        %a.chime-icon{href: root_path}
+          %img.chime-icon{src: image_url('chime.png')}
+          Chime In
+      %li.toggle-topbar.menu-icon
+        %a{:href => "#"}
+          Menu
+    .top-bar-section
+      %ul
+        = render 'layouts/navigation_links'
