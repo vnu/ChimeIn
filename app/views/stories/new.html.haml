@@ -1,6 +1,5 @@
 .chimeform
   = form_for(Story.new, :html => { :role => 'form'}) do |f|
-    %h3 Share your Story
     .form-group
       = f.label 'What would you like to share about?'
       = f.text_field :title, placeholder: 'Domestic Violence, Bullying etc.,', :autofocus => true, class: 'form-control'
@@ -14,4 +13,7 @@
       %label
         = f.check_box :anonymous
         Keep me anonymous
-    = f.submit 'Share', :class => 'button right'
+    = f.submit 'Share with community', :class => 'button right'
+    %a.button.left{href: '#'}'Get connected with an expert'
+
+
